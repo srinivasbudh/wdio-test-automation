@@ -54,7 +54,7 @@ class UpdateAddress {
   }
 
   get btnBewerken() {
-    return $(btnBewerkenSelector);
+    return $(this.btnBewerkenSelector);
   }
 
   async addAddressDetails(Firstname: string, LastName: string, Street: string, HouseNum: string, Place: string, PostCode:String){
