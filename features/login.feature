@@ -6,7 +6,7 @@
     Then He should see my account page
     Examples: 
       | username                     | password  |
-      | Testingfreelacer@gmail.com   | Test1234! |
+      | Testingfreelancer247@gmail.com   | Test1234! |
 
   Scenario Outline: Verify a user is dispalyed with a proper error message when accessing the application 
     Given A user is accessing the application home page
